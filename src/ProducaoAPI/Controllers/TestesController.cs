@@ -11,7 +11,7 @@ namespace ProducaoAPI.Controllers
     public class TestesController : ControllerBase
     {
         //Conexao com a base de dados
-        string sqlConnectionString = "Data Source=localhost\\MEIBI2025;Initial Catalog=Producao;Integrated Security=True;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        string sqlConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=Producao;Integrated Security=True;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         // GET: api/Testes/
         [HttpGet("{id}")]

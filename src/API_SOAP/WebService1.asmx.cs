@@ -12,7 +12,7 @@ namespace API_SOAP
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     public class WebService1 : System.Web.Services.WebService
     {
-        string connectionString = "Data Source=AMORIM\\MEIBI2025;Initial Catalog=Contabilidade;Integrated Security=True;";
+        string connectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=Contabilidade;Integrated Security=True;";
 
         [WebMethod]
         public string GetPecaMaiorPrejuizo()

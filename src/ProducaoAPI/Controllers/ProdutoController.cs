@@ -14,7 +14,7 @@ namespace ProducaoAPI.Controllers
     public class ProdutoController : ControllerBase
     {
         //Tambem poderia ser feita, acedendo diretamente às tools e fazer a comunicação com a base de dados como o Professor ensinou
-        string sqlConnectionString = "Data Source=localhost\\MEIBI2025;Initial Catalog=Producao;Integrated Security=True;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        string sqlConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=Producao;Integrated Security=True;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         // GET: api/<Values>
         [HttpGet]
         public ActionResult Get()
