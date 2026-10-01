@@ -42,11 +42,10 @@ A topic exchange is great for routing (send failures one way, everything another
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,rabbitmq" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/SOAP-005571?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
   <img src="https://img.shields.io/badge/RabbitMQ%20Streams-FF6600?style=for-the-badge" />
   <img src="https://img.shields.io/badge/REST%20API-2496ED?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SQL%20SERVER-CC2927?style=for-the-badge" />
